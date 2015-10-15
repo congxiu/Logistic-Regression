@@ -4,6 +4,9 @@
 lr = LogisticRegression(sample, label)
 
 lr.train()
+
 lr.predict(testSample)
+
 lr.score(testSample, testLabel)
+
 ...
